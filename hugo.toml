@@ -10,7 +10,7 @@ theme = "gallery"
    defaultTheme = "dark"
 
 [params.sidebar]
-  subtitle = "Outdoor & Snowsports Photography"
+  subtitle = "Outdoor Adventure & Snowsports Photography"
 
 [params.socialIcons]
   instagram = "https://www.instagram.com/corey__goldberg/"
