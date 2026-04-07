@@ -17,3 +17,7 @@ theme = "gallery"
 
   [params.footer]
     since = 2026
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
