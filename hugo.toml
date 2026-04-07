@@ -1,0 +1,19 @@
+baseURL = "https://coreygoldbergphotography.com/"
+languageCode = "en-us"
+title = "Corey Goldberg Photography"
+theme = "gallery"
+
+[pagination]
+  pagerSize = 6
+
+[params]
+   defaultTheme = "dark"
+
+[params.sidebar]
+  subtitle = "Outdoor & Snowsports Photography"
+
+[params.socialIcons]
+  instagram = "https://www.instagram.com/corey__goldberg/"
+
+  [params.footer]
+    since = 2026

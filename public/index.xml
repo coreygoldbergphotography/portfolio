@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Corey&#39;s Portfolio on Corey Goldberg Photography</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Corey&#39;s Portfolio on Corey Goldberg Photography</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026 USCSA</title>
+      <link>http://localhost:1313/lake_placid-2026/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lake_placid-2026/</guid>
+        <media:content url="http://localhost:1313/lake_placid-2026/lake_placid01_hu_e57a69d2fdb858a.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/lake_placid-2026/lake_placid01_hu_e57a69d2fdb858a.png&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Banff film festival 2025</title>
+      <link>http://localhost:1313/banff/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/banff/</guid>
+        <media:content url="http://localhost:1313/banff/1000013682_hu_e33539b7add1566c.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/banff/1000013682_hu_e33539b7add1566c.jpg&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Living Earth School - Virginia</title>
+      <link>http://localhost:1313/les/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/les/</guid>
+        <media:content url="http://localhost:1313/les/les_hu_28e6754f75d10ec9.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/les/les_hu_28e6754f75d10ec9.png&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>
