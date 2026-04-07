@@ -1,17 +1,12 @@
 name: Deploy Hugo site
-
 on:
   push:
     branches:
       - main
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # <-- forces Node 24
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -25,8 +20,11 @@ jobs:
       - name: Build site
         run: hugo --minify
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Deploy to gh-pages
+        uses: ad-m/github-push-action@v0.10.0
         with:
+          branch: gh-pages        # target branch
+          folder: public          # Hugo output folder
+          clean: true
+          commit-message: "Deploy site from Actions"
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
