@@ -21,7 +21,7 @@ jobs:
         run: hugo --minify
 
       - name: Deploy to gh-pages
-        uses: ad-m/github-push-action@v0.10.0
+        uses: ad-m/github-push-action@v1.0.0
         with:
           branch: gh-pages        # target branch
           folder: public          # Hugo output folder
