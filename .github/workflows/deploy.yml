@@ -23,11 +23,8 @@ jobs:
       - name: Build site
         run: hugo --minify
 
-      - name: Deploy to gh-pages
-        uses: ad-m/github-push-action@v1.0.0
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          branch: gh-pages        # target branch
-          folder: public          # Hugo output folder
-          clean: true
-          commit-message: "Deploy site from Actions"
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
